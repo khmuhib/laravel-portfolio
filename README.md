@@ -17,7 +17,7 @@
 6. php artisan db:seed 
 7. php artisan serve
 
-
+## Follow this playlist: https://www.youtube.com/playlist?list=PLzW6bt51l-DwXZghfeJCtDH0zTrui9iQW
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
