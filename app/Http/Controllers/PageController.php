@@ -2,13 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Main;
+use App\Models\Service;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function index()
     {
-        return view('pages.index');
+        $main = Main::first();
+        $services = Service::all();
+        return view('pages.index', compact('main', 'services'));
     }
 
     public function dashboard()
